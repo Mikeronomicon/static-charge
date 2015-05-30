@@ -1,0 +1,13 @@
+{
+	"locals": 
+	{
+		"url": "http://localhost:3000",
+		"name": "I want my money back",
+		"owner": "Not Me",
+		"description": "The hellish journey to a job"
+	},
+	"jade": 
+	{
+		"pretty": true
+	}
+}
