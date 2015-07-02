@@ -2,7 +2,11 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 var marked = require('meta-marked');
+var app = express();
 
+
+app.set('port', (process.env.PORT || 5000));
+app.use(express.static(__dirname + '/public'));
 
 //create variable for path to posts directory
 var postsDir = __dirname + "/../posts/";
